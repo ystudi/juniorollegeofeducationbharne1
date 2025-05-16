@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teacher Profiles</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .column {
+      flex: 1;
+      text-align: center;
+      padding: 20px;
+      border-right: 1px solid #ccc;
+    }
+
+    .column:last-child {
+      border-right: none;
+    }
+
+    .teacher-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #333;
+    }
+
+    .qualification {
+      margin-top: 15px;
+      font-weight: bold;
+      font-size: 16px;
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Teacher 1 -->
+    <div class="column">
+      <img src="teacher1.jpg" alt="Teacher 1" class="teacher-img">
+      <div class="qualification">PhD in Mathematics</div>
+    </div>
+
+    <!-- Teacher 2 -->
+    <div class="column">
+      <img src="teacher2.jpg" alt="Teacher 2" class="teacher-img">
+      <div class="qualification">MSc in Physics</div>
+    </div>
+
+    <!-- Teacher 3 -->
+    <div class="column">
+      <img src="teacher3.jpg" alt="Teacher 3" class="teacher-img">
+      <div class="qualification">MA in English</div>
+    </div>
+  </div>
+
+</body>
+</html>

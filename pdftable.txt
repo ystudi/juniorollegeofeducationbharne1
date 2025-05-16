@@ -1,0 +1,29 @@
+<h3 class="headingstyle">College Perspective</h3>
+      <table class="table">
+          <thead>
+            <tr>
+            
+              <th scope="col">College Perspective</th>
+              <th scope="col">Option</th>
+            </tr>
+          </thead>
+          <tbody>                       
+            <tr>
+              <th scope="row">1</th>
+              <td>College Perspective</td>
+              <td><a href="https://adhyapakmahavidyalaybharne.com/pdfviewer?name=college perspective&amp;id=34">View PDF</a></td>
+            </tr>
+
+
+
+
+///
+<table class="table">
+                
+            <tr>
+              <th scope="row">1</th>
+              <td>College Perspective</td>
+              <td><a href="https://adhyapakmahavidyalaybharne.com/pdfviewer?name=college perspective&amp;id=34">View PDF</a></td>
+            </tr>
+            //            
+            <a href="https://adhyapakmahavidyalaybharne.com/pdfviewer?name=college perspective&amp;id=34">View PDF</a>

@@ -1,0 +1,190 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f9ff;
+}
+
+.navbar {
+  background-color: #004080;
+  overflow: hidden;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  flex: 1;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #0066cc;
+}
+
+.content {
+  padding: 20px;
+}
+/* Infrastructure Gallery Styles by saloni */
+.infra-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.infra-item {
+  text-align: center;
+  max-width: 300px;
+}
+
+.infra-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.infra-title {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #004080;
+}
+
+/* Gallery Carousel Styles */
+.gallery-section {
+  background-color: #e6faff;
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel-container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  width: max-content;
+  animation: slide 20s linear infinite;
+}
+
+.carousel-track img {
+  height: 200px;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.section {
+  display: none;
+  padding: 20px;
+}
+
+.college-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About Us Section made by USA for adding about us page only with image css changes*/
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.about-left {
+  width: 65%;
+}
+
+.about-left img {
+  width: 70%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.about-left p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-right {
+  width: 30%;
+  /* using this right side blank delete for broder image Intentionally left blank for visual spacing */
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: #003366;
+  color: white;
+  padding: 30px 20px 10px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-left, .footer-right {
+  flex: 1 1 300px;
+  margin-bottom: 20px;
+}
+
+.footer-left h3, .footer-right h4 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-right ul li {
+  margin: 6px 0;
+}
+
+.footer-right ul li a {
+  color: #cce6ff;
+  text-decoration: none;
+}
+
+.footer-right ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #ffffff33;
+  padding-top: 10px;
+}
+
